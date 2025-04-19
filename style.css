@@ -27,7 +27,13 @@ h1 {
     height: 250px;
     object-fit: cover;
     border-radius: 50%;
+    animation: subirDescer 4s infinite ease-in-out;
+}
 
+@keyframes subirDescer {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
 }
 
 hr {
