@@ -8,13 +8,12 @@
 }
 
 body {
-    text-align: center;
     background-color: #F8F9FA;
 }
 
 .container {
     text-align: center;
-    padding: 25px;
+    padding: 5px;
 }
 
 h1 {
@@ -38,4 +37,55 @@ hr {
 
 p {
     padding-top: 25px;
+}
+
+nav {
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #5882FA;
+}
+
+nav a{
+    text-decoration: none;
+    color: #F8F9FA;
+    font-weight: bold;
+    font-size: small;
+}
+
+aside {
+    padding-bottom: 25px;
+}
+
+aside a {
+    text-decoration: none;
+    transition: 0.1s ease;
+}
+
+aside a:hover {
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(65, 65, 178);
+}
+
+.a1 {
+    
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    padding: 0;
+    background-color: rgb(183, 183, 183);
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    padding: 0;
 }
